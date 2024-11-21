@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Sederhana</title>
+    <style>
+        /* CSS untuk styling halaman */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            width: 100%;
+            background-color: #379683;
+            padding: 15px 0;
+            text-align: center;
+            color: #fff;
+            font-size: 1.5em;
+        }
+
+        nav {
+            background-color: #05386b;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            background-color: #379683;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #379683;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .profile-pic {
+            width: 400px; /* Lebar gambar */
+            height: auto; /* Tinggi gambar otomatis */
+            border-radius: 8px; /* Radius sudut gambar */
+            margin-top: 20px; /* Jarak dari paragraf */
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .contact-info a {
+            color: #05386b;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            color: #379683;
+        }
+    </style>
+</head>
+<body>
+    <header>Portofolio Saya</header>
+    
+    <!-- Navigasi -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Saya</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <!-- Home Section -->
+    <div class="container" id="home">
+        <div class="section">
+            <h2>Selamat Datang di Portofolio Saya</h2>
+            <p>Halo! Selamat datang di halaman portofolio saya. Di sini Anda dapat mengetahui lebih lanjut tentang saya dan menghubungi saya melalui kontak yang tersedia.</p>
+        </div>
+    </div>
+
+    <!-- Tentang Saya Section -->
+    <div class="container" id="about">
+        <div class="section">
+            <h3>TENTANG SAYA</h3>
+            <img src="Faiz.jpeg" alt="foto profil" class="profile-pic">
+            <p>Perkenalkan Nama saya Muh. Al Faiz. Saya merupakan mahasiswa semester 3 di Jurusan Teknologi Informasi, Prodi S1 Teknik Informatika. Dengan ketertarikan yang besar terhadap dunia IT, karena zaman sekarang teknologi sangat di butuhkan dan berperan penting dalam kehidupan, karena itu saya akan terus belajar agar dapat mengimplementasikan ilmu yang saya dapatkan. 
+                Walaupun proses perkuliahan terkadang sangat sulit, saya percaya bahwa tidak ada yang tidak bisa kalau kita terus belajar, jadi nikmatilah proses itu. Karena perkuliahan adalah kesempatan berharga untuk mengembangkan keterampilan dan memperluas wawasan,
+                baik secara akademis maupun personal. Saya percaya bahwa setiap tantangan di bangku kuliah adalah langkah untuk membangun pondasi yang kuat dalam mencapai cita-cita di masa depan.</p>
+                <p>Hobi Saya :</p>
+                <p>Main Futsal, Main Game, Main Gaple, Berenang, dan Membaca</p>
+        </div>
+    </div>
+
+    <!-- Kontak Section -->
+    <div class="container" id="contact">
+        <div class="section">
+            <h2>Kontak</h2>
+            <p>Hubungi saya melalui:</p>
+            <div class="contact-info">
+                <a href="https://www.instagram.com/muhalfaiz10/" target="_blank">Instagram</a>
+                <a href="https://github.com/alfaiz1010" target="_blank">GitHub</a>
+                <a href="mailto:emailanda@example.com">Email</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
